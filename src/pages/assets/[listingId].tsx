@@ -36,7 +36,7 @@ export default function NFT() {
 
         <div className={"flex flex-col rounded-lg border border-[#e8ebe5]"}>
           <div className={`flex items-center justify-start p-3`}>
-            <Image src={`/matic-logo.png`} height={20} width={20} />
+            <Image src={`/eth-logo.png`} height={20} width={20} />
           </div>
           <Image
             className={"rounded-2xl"}
@@ -69,7 +69,7 @@ export default function NFT() {
           <div className={"flex flex-col gap-y-2 bg-slate-50 p-3"}>
             <div className={"text-sm text-gray-500"}>Current Price</div>
             <div className={`flex items-center space-x-3`}>
-              <Image src={`/matic-logo.png`} height={24} width={24} />
+              <Image src={`/eth-logo.png`} height={24} width={24} />
               <p className={`text-3xl font-semibold`}>
                 {nft?.buyoutCurrencyValuePerToken?.displayValue}
               </p>
