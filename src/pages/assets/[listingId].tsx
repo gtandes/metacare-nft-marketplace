@@ -71,7 +71,7 @@ export default function NFT() {
             <div className={`flex items-center space-x-3`}>
               <Image src={`/eth-logo.png`} height={24} width={24} />
               <p className={`text-3xl font-semibold`}>
-                {nft?.buyoutCurrencyValuePerToken?.displayValue}
+                {nft?.buyoutCurrencyValuePerToken?.displayValue} WETH
               </p>
             </div>
             <button
